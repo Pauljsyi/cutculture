@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins";
-  background: #51565e;
+  background: #7e827a;
   width: 100%;
   height: 100vh;
 }
@@ -78,14 +78,14 @@ ul {
 }
 
 .text h1 {
-  color: rgb(206, 188, 166);
+  color: black;
   font-size: 100px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -5px;
   margin-bottom: 20px;
   /* left: 100px; */
-  padding-left: 15px;
+  /* padding-left: 15px; */
   position: relative;
   overflow: hidden;
   height: 150px;
@@ -96,7 +96,8 @@ ul {
   position: absolute;
   top: 100px;
   left: 10px;
-  color: #6e652a;
+  opacity: 0.3;
+  color: #e3cda4;
   z-index: -1;
   font-size: 100px;
   font-weight: 600;
@@ -109,6 +110,7 @@ ul {
 }
 
 .text h3 {
+  /* color: #703030; */
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 600;
@@ -133,7 +135,7 @@ ul {
   position: relative;
   overflow: hidden;
   height: 120px;
-  color: white;
+  color: black;
 }
 
 .text p .hidetext {
@@ -151,7 +153,8 @@ ul {
 }
 
 .sponsor img {
-  width: 200px;
+  width: 180px;
+  opacity: 0.8;
   /* transform: rotate(-90deg); */
 }
 
