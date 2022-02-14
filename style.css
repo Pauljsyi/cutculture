@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins";
-  background: #d8dbe2;
+  background: #51565e;
   width: 100%;
   height: 100vh;
 }
@@ -24,7 +24,7 @@ ul {
   align-items: center;
 }
 
-.navbar > div {
+.navbar div {
   padding: 0 30px;
   font-size: 20px;
 }
@@ -71,12 +71,14 @@ ul {
 
 .text {
   position: absolute;
+  padding: 50px;
   top: 200px;
   left: 100px;
   transform: rotate(-90deg);
 }
 
 .text h1 {
+  color: rgb(206, 188, 166);
   font-size: 100px;
   text-transform: uppercase;
   font-weight: 700;
@@ -90,18 +92,21 @@ ul {
   width: 750px;
 }
 
-.text h1::after {
-  content: "Be Your Best";
+.text h2 {
   position: absolute;
-  top: 30px;
-  left: -10px;
-  color: #efde74;
+  top: 100px;
+  left: 10px;
+  color: #6e652a;
   z-index: -1;
   font-size: 100px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
-/* .text h1 .hidetext {
+
+.text h1 .hidetext {
   position: absolute;
-} */
+}
 
 .text h3 {
   font-size: 40px;
@@ -114,15 +119,25 @@ ul {
   height: 80px;
 }
 
+.text h3 .hidetext {
+  position: absolute;
+}
+
 .text p {
   width: 200px;
   font-size: 12px;
   margin-top: 30px;
   font-weight: 500;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   overflow: hidden;
-  height: 110px;
+  height: 120px;
+  color: white;
+}
+
+.text p .hidetext {
+  position: absolute;
 }
 
 /* SPONSOR */
@@ -132,6 +147,7 @@ ul {
   right: 100px;
   bottom: 100px;
   text-align: center;
+  z-index: 1;
 }
 
 .sponsor img {
@@ -145,4 +161,13 @@ ul {
   text-transform: uppercase;
   font-weight: 900;
   /* transform: rotate(180deg); */
+}
+
+/* DISTORTION */
+
+.distortion {
+  width: 580px;
+  height: 720px;
+  margin-left: 800px;
+  margin-top: 50px;
 }
