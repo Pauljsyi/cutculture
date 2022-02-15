@@ -81,7 +81,7 @@
         image1: "./assets/01.jpg",
         image2: "./assets/02.jpg",
         displacementImage: "./assets/diss.png",
-        imagesRatio: 380 / 300,
+        imagesRatio: 380 / 380,
       });
 
       gsap
@@ -132,6 +132,13 @@
         duration: 3,
         opacity: 0,
         x: -1000,
+        ease: "power3",
+      });
+      gsap.from(".sponsor img", {
+        delay: 3,
+        duration: 3,
+        opacity: 0,
+        x: 1000,
         ease: "power3",
       });
     </script>

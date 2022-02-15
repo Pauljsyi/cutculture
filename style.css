@@ -7,8 +7,12 @@
 body {
   font-family: "Poppins";
   background: #7e827a;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+}
+
+.wrapper {
+  position: relative;
 }
 
 ul {
@@ -22,6 +26,7 @@ ul {
   justify-content: space-between;
   height: 80px;
   align-items: center;
+  width: 100%;
 }
 
 .navbar div {
@@ -43,13 +48,13 @@ ul {
 
 .media ul {
   position: absolute;
-  bottom: 250px;
-  left: -140px;
+  bottom: 15.625em;
+  left: -8.75em;
   transform: rotate(-90deg);
 }
 
 .media ul li {
-  font-size: 10px;
+  font-size: 0.625em;
   font-weight: 600;
   letter-spacing: 2px;
   display: inline-block;
@@ -71,9 +76,9 @@ ul {
 
 .text {
   position: absolute;
-  padding: 50px;
-  top: 200px;
-  left: 100px;
+  padding: 3.125em;
+  top: 12.5em;
+  left: 6.25em;
   transform: rotate(-90deg);
 }
 
@@ -169,8 +174,8 @@ ul {
 /* DISTORTION */
 
 .distortion {
-  width: 580px;
-  height: 720px;
-  margin-left: 800px;
-  margin-top: 50px;
+  width: 36.25em;
+  height: 45em;
+  margin-left: 50em;
+  margin-top: 3.125em;
 }
